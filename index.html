@@ -22,7 +22,7 @@
 <body>
     <!-- banner section -->
     <section >
-        <div class="max-w-7xl mx-auto grid grid-cols-2 border border-red-500 space-y-[30px]">
+        <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 border border-red-500 space-y-[30px]">
             <div class="banner-left ">
             <h2 class=" text-[80px] font-bold  ">
                 It's good <br>
@@ -35,9 +35,9 @@
                 Explore more <i class="fa-solid fa-arrow-right"></i>
             </button>
         </div>
-        <div class="banner-right ">
+        <div class="banner-right relative ">
             <img src="./images/banner.png" alt="">
-            <div class=" bg-white flex justify-between items-center py-[10px] w-[100px] relative border rounded-2xl w-2xl  ">
+            <div class=" bg-white flex space-x-1 items-center py-[10px] w-[100px] absolute border rounded-2xl w-[200px] bottom-[40px] left-[50px]">
                 <img src="./images/Group 5.png" alt="">
                 <div>
                     <h2>5.00</h2>
@@ -48,7 +48,45 @@
         </div>
         </div>
     </section>
-    
+    <!-- features section -->
+    <section class=" max-w-7xl mx-auto my-[60px] border py-5">
+        <div class=" text-center max-w-[75%] mx-auto">
+            <h2 class=" font-bold text-[45px]">Our Features Products</h2>
+            <p class="  text-[#777777] text-[18px] mb-5" >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ratione totam et possimus deserunt, voluptate quas illo rerum ipsa? Ut possimus eius delectus, non dignissimos aperiam animi veniam perferendis ullam!
+            </p>
+        </div>
+        <div class="feature-container grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-4">
+            <div class=" feature-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center  border rounded-md">
+                <img src="./images/tea-1.png" alt="" class=" mx-auto mb-4">
+                <h2 class=" font-semibold text-xl ">Milk Tea</h2>
+                <p class=" text-[#777777]">
+                    Creamer could be replaced <br> by fresh Milk 
+                </p>
+            </div>
+            <div class=" feature-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center  border rounded-md">
+                <img src="./images/tea-2.png" alt="" class=" mx-auto mb-4">
+                <h2 class=" font-semibold text-xl ">Milk Tea</h2>
+                <p class=" text-[#777777]">
+                    Creamer could be replaced <br> by fresh Milk 
+                </p>
+            </div>
+            <div class=" feature-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center  border rounded-md">
+                <img src="./images/tea-3.png" alt="" class=" mx-auto mb-4">
+                <h2 class=" font-semibold text-xl ">Milk Tea</h2>
+                <p class=" text-[#777777]">
+                    Creamer could be replaced <br> by fresh Milk 
+                </p>
+            </div>
+            <div class=" feature-card bg-linear-to-b from-[#f4f4f4] to-[#f4f4f4] p-7 text-center  border rounded-md">
+                <img src="./images/tea-4.png" alt="" class=" mx-auto mb-4">
+                <h2 class=" font-semibold text-xl ">Milk Tea</h2>
+                <p class=" text-[#777777]">
+                    Creamer could be replaced <br> by fresh Milk 
+                </p>
+            </div>
+        </div>
+    </section>
     
 </body>
 </html>
